@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Information for Investors — Pinestead Succession</title>
+  <meta name="description" content="Information for investors in Pinestead Succession's search to acquire a UK business — built on trust, alignment of interests and transparency." />
+  <link rel="icon" href="assets/pinestead-favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Mulish:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Pinestead Succession home">
+        <img src="assets/pinestead-horizontal.png" alt="Pinestead Succession" class="brand-logo" />
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#what">What</a>
+        <a href="index.html#who">Who</a>
+        <a href="index.html#business">Business owners</a>
+        <a href="investors.html">Investors</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="--hero-image: url('assets/investors_background.webp');">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <h1>Information for Investors</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow">
+        <p class="intro">
+          Pinestead Succession is undergoing a search process to identify an
+          exceptional UK business to acquire. This process is led by our
+          succession entrepreneur, who will also take over the day-to-day
+          management of the acquired business.
+        </p>
+        <p class="intro">
+          We have secured capital for the search process and may selectively
+          bring on additional capital from value-adding partners. The existing
+          investor base has no single dominant investor and comprises family
+          offices, private investors and funds highly experienced in small-company
+          buyouts.
+        </p>
+        <p class="note">
+          For further information please
+          <a id="inv-email" href="#">get in touch</a>.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-paper">
+      <div class="container">
+        <h2 class="centered">A successful outcome rests on three things</h2>
+        <div class="principles">
+          <div class="principle">
+            <span class="principle-num">01</span>
+            <h3>Trust</h3>
+            <p>A relationship built on candour and reliability, from first conversation through to long-term stewardship.</p>
+          </div>
+          <div class="principle">
+            <span class="principle-num">02</span>
+            <h3>Alignment of interests</h3>
+            <p>The entrepreneur leads the business directly, with incentives tied to its long-term success.</p>
+          </div>
+          <div class="principle">
+            <span class="principle-num">03</span>
+            <h3>Transparency</h3>
+            <p>Clear, honest reporting and open communication at every stage of the search and the hold.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <img src="assets/pinestead-horizontal.png" alt="Pinestead Succession" class="footer-logo" />
+      <p class="footer-legal">
+        Pinestead Succession Ltd is a private limited company, number 17179822,
+        registered in England &amp; Wales.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var addr = 'martin' + '@' + 'pinestead' + '.co' + '.uk';
+      var mailto = 'mailto:' + addr + '?subject=' + encodeURIComponent('Investor enquiry via pinestead.co.uk');
+      var el = document.getElementById('inv-email');
+      if (el) { el.setAttribute('href', mailto); }
+    })();
+  </script>
+</body>
+</html>

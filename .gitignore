@@ -1,0 +1,10 @@
+# Local Claude config — never publish
+.claude/
+
+# Reference screenshots of the old site — not part of the published site
+spec/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*~
