@@ -4,6 +4,9 @@
 # Reference screenshots of the old site — not part of the published site
 spec/
 
+# Internal deploy/ops notes — keep local, don't publish
+README.md
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store
