@@ -97,7 +97,7 @@ a { color: var(--green); }
 h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 0 0 28px; }
 .intro { font-size: 1.15rem; color: var(--muted); margin: 0 0 28px; }
 .intro.centered { margin-left: auto; margin-right: auto; max-width: 60ch; }
-.lead-in { font-weight: 600; margin: 28px 0 14px; }
+.lead-in { font-weight: 600; margin: 40px 0 16px; }
 .note { color: var(--muted); margin: 18px 0 0; }
 
 /* Feature / criteria list */
@@ -123,16 +123,17 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); margin: 0 0 28px; }
 
 /* Pull quote */
 .pull-quote {
-  margin: 0 0 24px;
-  padding: 6px 0 6px 26px;
-  border-left: 3px solid var(--accent);
+  margin: 0 auto 8px;
+  padding: 0;
+  max-width: 42ch;
+  text-align: center;
   font-family: "Jost", sans-serif;
   font-weight: 300;
   font-size: 1.5rem;
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--green);
 }
-.pull-quote cite { display: block; font-size: 1rem; font-style: normal; color: var(--muted); margin-top: 12px; }
+.pull-quote cite { display: block; font-size: 0.95rem; font-style: normal; color: var(--accent); margin-top: 14px; letter-spacing: 0.04em; }
 
 /* Team band */
 .band { background: var(--green); padding: 72px 0; }
